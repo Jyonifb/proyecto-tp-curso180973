@@ -14,18 +14,26 @@
 </head>
 <body>
 
-    <!-- Encabezado componente -->
+<header class="header">
+
+     <!-- Encabezado componente -->
     <section class="content">
-    <div class="logo">
-        <h1 class="character">Character Counter</h1>
-        <button class="theme-button">☀</button>
-    </div>
-    <div class="title">
-       <h1>Analyze your text in real-time.</h1> 
-    </div>
+        <div class="logo">
+            <h1 class="character">Character Counter</h1>
+            <button class="theme-button">☀</button>
+        </div>
+        
     </section>
 
-    <!-- Cuadro de Entrada de Texto -->
+</header>
+
+<main class="main">
+     
+    <div class="title">
+        <h1>Analyze your text in real-time.</h1> 
+    </div>
+
+        <!-- Cuadro de Entrada de Texto -->
 
     <section class="text">
         <textarea class="text-area">
@@ -42,7 +50,7 @@
     <!-- Botones cheks y visualización de tiempo aproximado -->
 
     <section class="checks">
-         <div class="options">
+        <div class="options">
 
             <label class="checkbox">
                 <input type="checkbox">
@@ -64,8 +72,8 @@
     <!-- Segmento de tarjetas de contadores --> 
 
     <section class="cards">
-         <div class="card-purple">
-             <h2>278</h2>
+        <div class="card-purple">
+            <h2>278</h2>
             <p>Total Characters</p>
         </div>
 
@@ -81,59 +89,63 @@
 
     </section>
 
-    </section>
-    
     <!-- Segmento de Porcentaje de Letras --> 
-
-        <section class="density">
+    
+    
+    
+    <section class="density">
 
         <h3>Letter Density</h3>
 
-        <div class="density-row">
+        <ul>
+        <li class="density-row">
             <span>E</span>
             <div class="bar">
                 <div class="fill" style="width:16.06%"></div>
             </div>
             <span>40 (16.06%)</span>
-        </div>
+        </li>
 
-        <div class="density-row">
+        <li class="density-row">
             <span>I</span>
             <div class="bar">
                 <div class="fill" style="width:11.65%"></div>
             </div>
             <span>29 (11.65%)</span>
-        </div>
+        </li>
 
-        <div class="density-row">
+        <li class="density-row">
             <span>T</span>
             <div class="bar">
                 <div class="fill" style="width:11.24%"></div>
             </div>
             <span>28 (11.24%)</span>
-        </div>
+        </li>
 
-        <div class="density-row">
+        <li class="density-row">
             <span>O</span>
             <div class="bar">
                 <div class="fill" style="width:8.84%"></div>
             </div>
             <span>22 (8.84%)</span>
-        </div>
+        </li>
 
-        <div class="density-row">
+        <li class="density-row">
             <span>N</span>
             <div class="bar">
                 <div class="fill" style="width:8.43%"></div>
             </div>
             <span>21 (8.43%)</span>
-        </div>
+        </li>
 
+        </ul>
         <button class="see-more">
             See more ↓
-        </button>
+        </button>    
 
     </section>
+
+</main>
 
 </body>
 </html>
