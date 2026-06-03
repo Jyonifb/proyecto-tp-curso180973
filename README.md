@@ -33,3 +33,5 @@ Se utilizaron:
 - Dimensionar apropiadamente según el ejercicio dado
 
 ## Capturas
+
+![Inicios del desarrollo de la pagina web (.captures-mardown/etapal-inicial-01-web.png)]
